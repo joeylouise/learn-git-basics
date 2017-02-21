@@ -12,6 +12,9 @@
 ##### Creating a new branch for you to work on
         git branch <new branch name>
 
+##### See all branches in your remote repository
+			git branch -a
+
 ##### Moving onto a branch
         git checkout <branch name>
 
@@ -35,3 +38,9 @@
 
 ##### Pulling remote changes into your local repo
         git pull origin <branch name>
+
+##### Moving files while preserving git history
+		git mv <source> <destination>
+
+##### Create a branch and check it out at the same time
+		git checkout -b <new branch name>
